@@ -12,7 +12,7 @@
     <!--Bloque de navegacion-->
     <div class="nav-container">
         <header>
-            <a href="index.html" class="logo">Nicolas Vega</a>
+            <a id="top" href="index.html" class="logo">Nicolas Vega</a>
 
             <nav>
                 <ul>
@@ -85,9 +85,9 @@
     </section>
 
     <!--Skills-->
-    <section id="skills" class="skills">
+    <section  class="skills">
         <div class="skills-title">
-            <h1>My Skills</h1>
+           <a id="skills" href="#top"><h1>My Skills</h1></a>
         </div>
         <div class="skills-container" >
             <ul>
@@ -124,9 +124,9 @@
     </section>
 
     <!--My work-->
-    <section id="work" class="folio">
+    <section class="folio">
         <div class="work-title">
-            <h1>My Work</h1>
+            <a id="work" href="#top"> <h1>My Work</h1></a>
         </div>
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -178,9 +178,9 @@
     </section>
 
     <!--Aboutme-->
-    <section id="about" class="aboutme">
+    <section  class="aboutme">
         <div class="aboutme-title">
-            <h1>About me</h1>
+            <a id="about" href="#top"><h1>About me</h1></a>
             <p class="aboutme-desc">
                 I started my programming career at UTN in mid-2020.
                 I have a degree in psychology and another in teaching.
@@ -246,7 +246,7 @@
         gsap.from(".transition3",{
             scrollTrigger:{
                 trigger: '.transition3',
-                start: "top center"
+                start: "top bottom"
             },
             y:50,
             opacity:0,

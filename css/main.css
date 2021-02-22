@@ -54,6 +54,10 @@ header ul a {
   padding: 0 1em;
 }
 
+#about, #work, #skills {
+  color: #3b3b3b;
+}
+
 .social-header, .cuadros {
   display: none;
 }
